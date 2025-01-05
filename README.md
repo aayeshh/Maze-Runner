@@ -6,6 +6,8 @@ Maze Runner is a console-based game implemented entirely in assembly language. T
 - **Interactive Gameplay**: Players can navigate through the maze using keyboard controls.
 - **Dynamic Maze**: The maze layout changes or can be adjusted for different difficulty levels.
 - **Efficient Assembly Code**: The project highlights optimization techniques and careful memory management inherent in assembly language.
+- **Playing instructions**: Use keys a,s,d,w to navigate in maze.
+- **SuperMan mode**: Press key 'M' to extend time.
 
 ## Getting Started
 
