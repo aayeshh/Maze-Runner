@@ -3,11 +3,12 @@
 Maze Runner is a console-based game implemented entirely in assembly language. The game challenges the player to navigate a maze, avoiding obstacles and finding the exit. It demonstrates efficient use of low-level programming concepts and offers an engaging experience.
 
 ## Features
-- **Interactive Gameplay**: Players can navigate through the maze using keyboard controls.
-- **Dynamic Maze**: The maze layout changes or can be adjusted for different difficulty levels.
-- **Efficient Assembly Code**: The project highlights optimization techniques and careful memory management inherent in assembly language.
-- **Playing instructions**: Use keys a,s,d,w to navigate in maze.
-- **SuperMan mode**: Press key 'M' to extend time.
+- **Menu Page**: Choose between "Play" and "Credits" options.
+- **Interactive Gameplay**: Navigate through the maze using the `W`, `A`, `S`, and `D` keys.
+- **Superman Mode**: Activate by pressing `M` to increase the timer. Collecting a key saves your life.
+- **Random Maze Generation**: Each playthrough offers a unique challenge with dynamically generated mazes.
+- **Timer**: Adds an element of urgency to reach the exit before time runs out.
+- **Visually Appealing**: Simple yet attractive graphics designed within the constraints of assembly programming.
 
 ## Getting Started
 
@@ -19,3 +20,7 @@ Maze Runner is a console-based game implemented entirely in assembly language. T
 1. Clone this repository:
    ```bash
    git clone https://github.com/aayesh/maze-runner.git
+2. Assemble program
+   nasm -f bin maze_runner.asm -o maze_runner.com
+3. Run the program using an emulator or directly if your system supports it
+   dosbox maze_runner.com
